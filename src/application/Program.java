@@ -37,7 +37,7 @@ public class Program {
 				System.out.println("Erro na RESERVA - checkOut deve ser posterior ao chckIn");
 			} else {
 				reservation.updateDates(checkIn, checkOut);
-				System.out.println("Reservation: " + reservation);
+				System.out.println("Reservationn: " + reservation);
 			}
 			
 		}
