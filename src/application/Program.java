@@ -32,7 +32,7 @@ public class Program {
 			checkOut = sdf.parse(sc.next());
 			Date now = new Date();
 			if (checkIn.before(now) || checkOut.before(now)) {
-				System.out.print("Error reservation must be future Date");
+				System.out.println("Error reservation must be future Date");
 			} else if (!checkOut.after(checkIn)) {
 				System.out.println("Erro na RESERVA - checkOut deve ser posterior ao chckIn");
 			} else {
